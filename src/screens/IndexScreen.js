@@ -4,6 +4,7 @@ import BlogContext from "../context/BlogContext";
 
 const IndexScreen = () => {
   const { data, addBlogPost } = useContext(BlogContext);
+  //console.log(addBlogPost)
   //console.log("bbb", addBlogPost)
   //console.log("aaa",blogPosts)
 
